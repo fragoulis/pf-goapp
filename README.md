@@ -12,7 +12,7 @@ The application has some problems described below that need to be addressed plus
 
 ## Problems
 
-### #1
+### [#1](https://github.com/fragoulis/pf-goapp/pull/1)
 
 The server prints statistics for each WS sessioned closed but it seems to only count one message while there are more send to each WS session, e.g.
 
