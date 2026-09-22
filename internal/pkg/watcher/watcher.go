@@ -13,7 +13,7 @@ type Watcher struct {
 	counter     *Counter       // The counter.
 	counterLock *sync.RWMutex  // Lock for counter.
 	quitChannel chan struct{}  // Quit.
-	running     sync.WaitGroup // Run, Amy, Run!
+	running     sync.WaitGroup // Run, Lola, Run!
 }
 
 func New() *Watcher {
