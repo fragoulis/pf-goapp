@@ -22,7 +22,7 @@ The server prints statistics for each WS sessioned closed but it seems to only c
 
 ### #2
 
-A more then normal memory usage is observed after many WS sessions which needs investigation.
+A more than normal memory usage is observed after many WS sessions which needs investigation.
 
 ### #3
 
