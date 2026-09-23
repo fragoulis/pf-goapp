@@ -24,7 +24,7 @@ The server prints statistics for each WS sessioned closed but it seems to only c
 
 A more than normal memory usage is observed after many WS sessions which needs investigation.
 
-### #3
+### [#3](https://github.com/fragoulis/pf-goapp/pull/2)
 
 A cross-site request forgery is reported by a security audit which needs fixing.
 
