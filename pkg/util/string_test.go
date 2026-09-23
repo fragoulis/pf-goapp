@@ -65,10 +65,20 @@ func TestRandString(t *testing.T) {
 
 var benchmarkRandString string
 
-func BenchmarkRandString(b *testing.B) {
+func BenchmarkRandHexString(b *testing.B) {
 	b.ReportAllocs()
 
 	for i := 0; i < b.N; i++ {
 		benchmarkRandString = util.RandString(10)
+	}
+}
+
+var benchmarkRandLetterString string
+
+func BenchmarkRandLetterString(b *testing.B) {
+	b.ReportAllocs()
+
+	for i := 0; i < b.N; i++ {
+		benchmarkRandLetterString = util.RandLetterString(10)
 	}
 }
