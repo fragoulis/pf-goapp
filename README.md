@@ -34,7 +34,7 @@ A cross-site request forgery is reported by a security audit which needs fixing.
 
 Modify the random string generator to generate only hex values and verify its accuracy and resource usage by creating a test and a benchmark run.
 
-### B
+### [B](https://github.com/fragoulis/pf-goapp/pull/4)
 
 Extent the API to also return the Hex value in WS connection. I.e. a browser that open a connection to `localhost:8080` should see the HEX values.
 
