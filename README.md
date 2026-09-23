@@ -48,7 +48,7 @@ RESPONSE: {"iteration":3,"value":"05DCC3B6AB"}
 CLOSE
 ```
 
-### C
+### [C](https://github.com/fragoulis/pf-goapp/pull/5)
 
 Create a command line client as a separate application that opens a requested number of sessions simultaneously.
 
