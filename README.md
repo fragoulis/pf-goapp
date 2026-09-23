@@ -30,7 +30,7 @@ A cross-site request forgery is reported by a security audit which needs fixing.
 
 ## New features
 
-### A
+### [A](https://github.com/fragoulis/pf-goapp/pull/3)
 
 Modify the random string generator to generate only hex values and verify its accuracy and resource usage by creating a test and a benchmark run.
 
