@@ -6,7 +6,7 @@ Returns an example websocket page.
 
 ## GET /goapp/ws
 
-The message sent by the server containing the counter value:
+The message sent by the server containing the counter and generated hexadecimal value:
 
 The message sent by the client to reset the counter:
 
